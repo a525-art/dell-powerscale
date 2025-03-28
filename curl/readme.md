@@ -18,7 +18,7 @@ upload  local file and verify
 `curl -k -u admin:P@ssw0rd -X PUT -d @b2.txt 'https://192.168.55.51/upload/d1/b2.txt`
 `curl -k -u admin:P@ssw0rd  'https://192.168.55.51/upload/d1/b2.txt`
 
-備註: 反斜線 code 標記來完全避免 Markdown 解析，這樣就能確保它顯示為普通文字。 所以實際上是沒有'  ' 
+備註: readme.md 編輯文檔   code 標記來完全避免 Markdown 解析，這樣就能確保它顯示為普通文字。 所以實際上是沒有  '  ' 指令最前後的反斜線 
 
 上傳或建立的目錄 owner會是  daemon 
 
