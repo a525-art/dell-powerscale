@@ -123,3 +123,7 @@ tgt-1#
 
 isi62-1# isi services -a
 isi_rsapi_d          Remote-Service API Daemon                Enabled
+
+
+
+那一個階段會load isilon_sdk ?
