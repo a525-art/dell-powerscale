@@ -20,3 +20,4 @@ curl -X MKCOL  https://192.168.55.51/upload/d1 -k -u admin:P@ssw0rd
 curl -k -u admin:P@ssw0rd -X PUT -d @b2.txt https://192.168.55.51/upload/d1/b2.txt
 curl -k -u admin:P@ssw0rd  https://192.168.55.51/upload/d1/b2.txt
 
+![ls -lat ]curl-ls.png
