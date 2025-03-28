@@ -20,6 +20,6 @@ upload  local file and verify
 
 備註: readme.md 編輯文檔   code 標記來完全避免 Markdown 解析，這樣就能確保它顯示為普通文字。 所以實際上是沒有  '  ' 指令最前後的反斜線 
 
-上傳或建立的目錄 owner會是  daemon 
+上傳或建立的目錄 owner會是  daemon  , 這個結果會是與REST API 鶳建出來的不一樣
 
 ![ls -lat ](curl-ls.png)
