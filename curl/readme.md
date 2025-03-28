@@ -4,7 +4,7 @@ HTTP settings>Protocol settings> Document root directory (must be within /ifs) �
 
 
 #檔案內容 , 目錄列表內容 	
-curl -k -u admin:P@ssw0rd   'https://192.168.55.51/dir/file-name.txt'
+curl -k -u admin:P@ssw0rd    \https://192.168.55.51/dir/file-name.txt
 
 #建一個空檔	
 curl -k -u admin:P@ssw0rd  -X PUT   'https://192.168.55.51/upload/b1.txt'
