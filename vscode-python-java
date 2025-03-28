@@ -1,0 +1,8 @@
+vscode with java , python
+安裝vscode 
+安裝JRE
+Run JAVA  時 vscode 提示需要OpenJDK(example：OoenJDK21U-jdk_x64_windows_hotspot_21.xx
+安裝python
+run python 如果有import requests 錯誤提示會要 pip install requests 
+有些情況下 run 在vscode端終會有錯誤 , 它是叫你出去在powershell 下去執行
+vscode UI 可以改中文 , 但如果純英文的windows 端終輸出可能會有？？問號輸出, 但其實執行結果是正常
