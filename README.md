@@ -110,8 +110,8 @@ if response.status_code == 200:
 Isilon OneFS 的 REST API 提供了強大的功能，能夠在多種情境下進行檔案和目錄的操作。無論是用於簡單的檔案管理，還是較複雜的監控、備份等工作，REST API 都是管理和自動化運維的好幫手
 
 
-root
-'https://www.dell.com/support/kbdoc/en-us/000195091/powerscale'
+root ssh 登入 <br>
+'https://www.dell.com/support/kbdoc/en-us/000195091/powerscale' <br>
 Enable HTTP Basic Authentication as shown below:
 tgt-1# isi_gconfig -t web-config auth_basic
 auth_basic (bool) = false   <<< default value in OneFS 9.2 and newer
