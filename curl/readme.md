@@ -1,4 +1,4 @@
-## 注意哦 curl 下的python 是用 http request 的方式去作業的 不是叫RAST API
+## 注意哦cmd curl 及 curl 方式的 python 是用 http request 的方式去作業的 不是呼叫RAST API
 
 如果是使用http   
 HTTP settings>Protocol settings> Document root directory (must be within /ifs) 要去指定目錄 
