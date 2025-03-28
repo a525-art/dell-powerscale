@@ -1,7 +1,5 @@
-就你知道的 使用rest api 對 isilon onefs 進行檔案的作業 通常有什麼方式或者 用途 ?
+使用rest api 對 isilon onefs 進行檔案的作業 通常有什麼方式或者 用途 ?
 
-
-ChatGPT said:
 對於 Isilon OneFS 系統，使用 REST API 進行檔案操作通常有以下幾種方式和用途。這些 API 允許管理員或開發者對 Isilon 存儲集群進行各種檔案作業，包括檔案管理、用戶管理、日誌檢視、系統配置等。以下是一些常見的用途：
 
 1. 檔案和目錄管理
@@ -112,8 +110,16 @@ if response.status_code == 200:
 Isilon OneFS 的 REST API 提供了強大的功能，能夠在多種情境下進行檔案和目錄的操作。無論是用於簡單的檔案管理，還是較複雜的監控、備份等工作，REST API 都是管理和自動化運維的好幫手
 
 
-
-
 root
+'https://www.dell.com/support/kbdoc/en-us/000195091/powerscale'
+Enable HTTP Basic Authentication as shown below:
+tgt-1# isi_gconfig -t web-config auth_basic
+auth_basic (bool) = false   <<< default value in OneFS 9.2 and newer
+tgt-1# isi_gconfig -t web-config auth_basic=true
+tgt-1# isi_gconfig -t web-config auth_basic
+auth_basic (bool) = true
+tgt-1#
+
+
 isi62-1# isi services -a
 isi_rsapi_d          Remote-Service API Daemon                Enabled
